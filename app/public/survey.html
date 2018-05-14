@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dog Friend Finder</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--Font awesome glyphicons-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!--Chosen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.5/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.5/chosen.jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class= container>
+        <h2>Survey Questions</h2>
+        <br>
+
+        <h3>
+            <strong>About Your Dog</strong>
+        </h3>
+        <h4>Name (Required)</h4>
+        <input type="text" name=" " id="name" class="form-control" required>
+
+        <h4>Age (Required)</h4>
+        <input type="text" name=" " id="age" class="form-control" required>
+
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" name=" " id="photo" class="form-control" required>
+        <hr>
+
+        <h3>
+            <strong>Question 1</strong>
+        </h3>
+        <h4>I like to go on long walks</h4>
+        <select data-placeholder=" " class="chosen-select" id="q1">
+            <option value=" "></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3 (Neutral)</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 2</strong>
+        </h3>
+        <h4>I like to be outdoors</h4>
+        <select data-placeholder=" " class="chosen-select" id="q2">
+            <option value=" "></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3 (Neutral)</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 3</strong>
+        </h3>
+        <h4>I love every person I meet</h4>
+        <select data-placeholder=" " class="chosen-select" id="q3">
+            <option value=" "></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3 (Neutral)</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 4</strong>
+        </h3>
+        <h4>I love every dog I meet</h4>
+        <select data-placeholder=" " class="chosen-select" id="q4">
+            <option value=" "></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3 (Neutral)</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 5</strong>
+        </h3>
+        <h4>I like other pets (cats, rabbits, etc)</h4>
+        <select data-placeholder=" " class="chosen-select" id="q5">
+            <option value=" "></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3 (Neutral)</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 6</strong>
+        </h3>
+        <h4>I love new toys and playtime</h4>
+        <select data-placeholder=" " class="chosen-select" id="q6">
+            <option value=" "></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3 (Neutral)</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 7</strong>
+        </h3>
+        <h4>Tummy rubs are my favorite</h4>
+        <select data-placeholder=" " class="chosen-select" id="q7">
+            <option value=" "></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3 (Neutral)</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 8</strong>
+        </h3>
+        <h4>I'm very affectionate</h4>
+        <select data-placeholder=" " class="chosen-select" id="q8">
+            <option value=" "></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3 (Neutral)</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 9</strong>
+        </h3>
+        <h4>I can be scared easily</h4>
+        <select data-placeholder=" " class="chosen-select" id="q9">
+            <option value=" "></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3 (Neutral)</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 10</strong>
+        </h3>
+        <h4>I am protective of my family</h4>
+        <select data-placeholder=" " class="chosen-select" id="q10">
+            <option value=" "></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3 (Neutral)</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 11</strong>
+        </h3>
+        <h4>My mom/dad takes me out &amp; about all the time</h4>
+        <select data-placeholder=" " class="chosen-select" id="q11">
+            <option value=" "></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3 (Neutral)</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 12</strong>
+        </h3>
+        <h4>My favorite place to sleep is on my mom’s/dad’s bed</h4>
+        <select data-placeholder=" " class="chosen-select" id="q12">
+            <option value=" "></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3 (Neutral)</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <br>
+        <br>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block " id="submit">
+            <i class="fa fa-check-circle" aria-hidden="true">
+                Submit to our Dogbase
+            </i>
+        </button>
+        <hr>
+
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    <a href="/api/dogs">API Friends List</a> |
+                    <a href="#">GitHub Repo</a>
+                </p>
+
+            </div>
+            <hr>
+        </footer>
+
+    </div>
+    <!--Modal-->
+    <div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!--Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">
+                        <strong>Best Match</strong>
+                    </h2>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <h2 id="matchName"></h2>
+                    <h2 id="matchAge"></h2>
+                    <img id="matchImg" src="" alt="">
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+
+        //Chosen CSS
+        var config = {
+            ".chosen-select": {},
+            ".chosen-select-deselect": { allow_single_deselect: true },
+            ".chosen-select-no-single": { disable_search_threshold: 10 },
+            ".chosen-select-no-results": { no_results_text: "Oops, nothing found!" },
+            ".chosen-select-width": { width: "90%" }
+
+        };
+        // captures the form inputs 
+        $("#submit").on("click", function () {
+            //form validation
+            function validateForm() {
+                var isValid = true;
+                $(".form-control").each(function () {
+                    if ($(this).val() == "") {
+                        isValid = false;
+                    }
+                });
+                $(".chosen-select").each(function () {
+                    if ($(this).val() == "") {
+                        isValid = false;
+                    }
+                });
+                return isValid;
+            }
+
+            // if all required fields are filled
+            if (validateForm()) {
+                // create an object for the users data
+                var userData = {
+                    name: $("#name").val(),
+                    age: $("#age").val(),
+                    photo: $("#photo").val(),
+                    scores: [
+                        $("#q1").val(),
+                        $("#q2").val(),
+                        $("#q3").val(),
+                        $("#q4").val(),
+                        $("#q5").val(),
+                        $("#q6").val(),
+                        $("#q7").val(),
+                        $("#q8").val(),
+                        $("#q9").val(),
+                        $("#q10").val(),
+                        $("#q11").val(),
+                        $("#q12").val(),
+                    ]
+                };
+
+                // Grab the URL of the website
+                var currentURL = window.location.origin;
+                console.log(userData);
+                //AJAX post the data to the dogs API
+                $.post(currentURL + "/api/dogs", userData, function (data) {
+
+                    //Grab the result from the AJAX post so that the best matchs name, age & photo display
+                    $("#matchName").text(data.name);
+                    $("#matchAge").text(data.age);
+                    $("#matchImg").attr("src", data.photo);
+                    // Display the best match in the modal
+                    $("#resultsModal").modal("toggle");
+
+                });
+            }
+            else {
+                alert("Please fill out all fields before submitting!");
+            }
+            return false;
+        });
+    </script>
+</body>
+
+</html>
