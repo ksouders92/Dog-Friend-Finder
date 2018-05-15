@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <div class= container>
+    <div class = container>
         <h2>Survey Questions</h2>
         <br>
 
@@ -226,8 +226,8 @@
 
                 </div>
                 <div class="modal-body">
-                    <h2 id="matchName"></h2>
-                    <h2 id="matchAge"></h2>
+                    <h2 id="matchName">Name: </h2>
+                    <h2 id="matchAge">Age: </h2>
                     <img id="matchImg" src="" alt="">
                 </div>
 
@@ -251,6 +251,9 @@
             ".chosen-select-width": { width: "90%" }
 
         };
+        for (var selector in config) {
+            $(selector).chosen(config[selector]);
+        }
         // captures the form inputs 
         $("#submit").on("click", function () {
             //form validation
@@ -295,16 +298,17 @@
                 // Grab the URL of the website
                 var currentURL = window.location.origin;
                 console.log(userData);
+
+                // Display the best match in the modal
+                $("#resultsModal").modal("show");
                 //AJAX post the data to the dogs API
                 $.post(currentURL + "/api/dogs", userData, function (data) {
-
+                    
                     //Grab the result from the AJAX post so that the best matchs name, age & photo display
                     $("#matchName").text(data.name);
                     $("#matchAge").text(data.age);
-                    $("#matchImg").attr("src", data.photo);
-                    // Display the best match in the modal
-                    $("#resultsModal").modal("toggle");
-
+                    $("#matchImg").attr('src', data.photo);
+                    
                 });
             }
             else {

@@ -36,14 +36,15 @@ module.exports = function (app) {
             console.log(dogs[i]);
             totalDifference = 0;
             
-            //Loop through all the scores of each friend
+            //Loop through all the scores of each friendh
             for (var j=0; j < dogs[i].scores[j]; j++){
 
             // Calculate the difference between the scores and sum them into totalDifference
-            totalDifference == Math.abs(parseInt(userScores[j]) - parseInt(dogs[i].scores[j]));
+            totalDifference += Math.abs(parseInt(userScores[j]) - parseInt(dogs[i].scores[j]));
 
             // if the sum of the difference is less than the difference of the current "bestMatch"
-            if (totalDifference == bestMatch.friendDifference) {
+            if (totalDifference <= bestMatch.friendDifference) {
+                debugger;
 
                 // reset the bestMatch to be the new friend
                 bestMatch.name = dogs[i].name;

@@ -3,7 +3,7 @@ var dogs = [
     {
         name: "Coco ",
         age: "4",
-        photo: "https://drive.google.com/file/d/1FlpQSAd2_pmPbtA8nltLLnLadnMDe-LW/view?usp=sharing",
+        photo: "../images/Coco.jpg",
         scores: [
             "5",
             "3",
@@ -22,7 +22,7 @@ var dogs = [
     },{
         name: "Callie ",
         age: "4",
-        photo: "https://drive.google.com/file/d/1la9c7q6iW2mUKbVwRYxbc8Rw6-hH4NOb/view?usp=sharing",
+        photo: "../images/Callie.jpg",
         scores: [
             "5",
             "5",
@@ -41,7 +41,7 @@ var dogs = [
     },{
         name: "Sophie ",
         age: "1",
-        photo: "https://drive.google.com/file/d/15WDaZyf0LTsHtChPhLnLDlwFW5l-4aD3/view?usp=sharing",
+        photo: "../images/Sophie.jpg",
         scores: [
             "5",
             "5",
@@ -60,7 +60,7 @@ var dogs = [
     },{
         name: "Xena",
         age: "12",
-        photo: "https://drive.google.com/file/d/1h0MzfsRlom-23--f63NUPqIzmsZInmyN/view?usp=sharing",
+        photo: "../images/Xena.jpg",
         scores: [
             "4",
             "5",
@@ -79,7 +79,7 @@ var dogs = [
     },{
         name: "Marley",
         age: "3",
-        photo: "https://drive.google.com/file/d/1bc5tLcOZnD2vnDM-NBBvOf-XFid-UGVh/view?usp=sharing",
+        photo: "../images/Marley.jpeg",
         scores: [
             "5",
             "5",
@@ -98,7 +98,7 @@ var dogs = [
     },{
         name: "Rocket",
         age: "4",
-        photo: "https://drive.google.com/file/d/1QmiuBfWiAnfs2eFMU1u8XctALspfS-n7/view?usp=sharing",
+        photo: "../images/Rocket.JPG",
         scores: [
             "5",
             "5",
@@ -117,7 +117,7 @@ var dogs = [
     },{
         name: "Ollie",
         age: "5",
-        photo: "https://drive.google.com/file/d/1qZd50GBlT5-db-NZbb8jBylk9p2FoD4q/view?usp=sharing",
+        photo: "../images/Ollie.jpg",
         scores: [
             "5",
             "5",
@@ -136,7 +136,7 @@ var dogs = [
     },{
         name: "Mocha",
         age: "9",
-        photo: "https://drive.google.com/file/d/1o8XtN1dY32Lyrh9JStk_co_zmUupPXJt/view?usp=sharing",
+        photo: "../images/Mocha.JPG",
         scores: [
             "4",
             "5",
@@ -155,7 +155,7 @@ var dogs = [
     },{
         name: "Nora Pig",
         age: "1",
-        photo: "https://drive.google.com/file/d/15Xv_4kMFpf4x7eSgDk5k_1WAJOsyf2e6/view?usp=sharing",
+        photo: "../images/NoraPig.jpg",
         scores: [
             "2",
             "3",
@@ -174,7 +174,7 @@ var dogs = [
     },{
         name: "Harpe Flea",
         age: "2",
-        photo: "https://drive.google.com/file/d/1ANnwDQaUlMVgbonu5w-XifCbHqu2SfdK/view?usp=sharing",
+        photo: "../images/Harper_Flea.jpeg",
         scores: [
             "4",
             "4",
@@ -193,7 +193,7 @@ var dogs = [
     },{
         name: "Riddick",
         age: "5",
-        photo: "https://drive.google.com/open?id=19hy9LGrdFHSKv7vB1WNpCBvYaMZrg6S9",
+        photo: "../images/Reddick.jpg",
         scores: [
             "2",
             "3",
@@ -212,7 +212,7 @@ var dogs = [
     },{
         name: "Lexi",
         age: "5",
-        photo: "https://drive.google.com/open?id=1fIDRrWr4jIjXjnm99rMlSIt_X1c_uwhn",
+        photo: "../images/Lexi.jpg",
         scores: [
             "5",
             "5",
@@ -231,7 +231,7 @@ var dogs = [
     },{
         name: "Jaxson",
         age: "2",
-        photo: "https://drive.google.com/open?id=19QEMF_2RsJJviYxxm3xiw9ODiyjYRqvC",
+        photo: "../images/Jaxson.jpeg",
         scores: [
             "5",
             "5",
@@ -250,7 +250,7 @@ var dogs = [
     },{
         name: "Marty",
         age: "5 months",
-        photo: "https://drive.google.com/open?id=1ydnSktkf2AfizG4h8cXpg3MScfMCDGjr",
+        photo: "../images/Marty.PNG",
         scores: [
             "5",
             "5",
@@ -269,7 +269,7 @@ var dogs = [
     },{
         name: "Kirby",
         age: "3",
-        photo: "https://drive.google.com/open?id=12By_rO1juFYLZEC94ezediEg95oVLnQy",
+        photo: "../images/Kirby.jpeg",
         scores: [
             "5",
             "5",
@@ -288,7 +288,7 @@ var dogs = [
     },{
         name: "Sugar",
         age: "11",
-        photo: "https://drive.google.com/file/d/1lvEcZ96Z7jDHH7KFTw0MPXsdMzjQGmUo/view?usp=sharing",
+        photo: "../images/Sugar.JPG",
         scores: [
             "5",
             "4",
@@ -307,7 +307,7 @@ var dogs = [
     },{
         name: "Oliver",
         age: "6 months",
-        photo: "https://drive.google.com/file/d/1bREuEDO0NPjWO_bcutC1ctuHvmxRgm3i/view?usp=sharing",
+        photo: "../images/Oliver.jpeg",
         scores: [
             "5",
             "5",
@@ -326,7 +326,7 @@ var dogs = [
     },{
         name: "Remy",
         age: "12",
-        photo: "https://drive.google.com/open?id=1ZIjYTD0ynqx3wIpVtM1yosKVJCR7yrKf",
+        photo: "../images/Remy.jpg",
         scores: [
             "4",
             "4",
@@ -345,7 +345,7 @@ var dogs = [
     },{
         name: "Diego",
         age: "4",
-        photo: "https://drive.google.com/open?id=1SjLp2aC3Ui3KAmWo3xGl_cOCRIvocuCK",
+        photo: "../images/Diego.jpg",
         scores: [
             "4",
             "5",
@@ -364,7 +364,7 @@ var dogs = [
     },{
         name: "Payton",
         age: "4",
-        photo: "https://drive.google.com/open?id=13Eo97_HqxC3Vi1F3a58I0_Pk4ofbtK8o",
+        photo: "../images/Payton.jpg",
         scores: [
             "5",
             "5",
