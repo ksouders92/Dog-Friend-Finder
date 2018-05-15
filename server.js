@@ -1,5 +1,7 @@
 // dependencies 
-import './app/CSS/style.css';
+// TODO: 
+// 1. get CSS file to import 
+// import './app/CSS/style.css';
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
