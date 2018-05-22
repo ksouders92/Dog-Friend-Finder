@@ -241,6 +241,8 @@
 
 
     <script type="text/javascript">
+$(document).ready (function (){
+
 
         //Chosen CSS
         var config = {
@@ -297,19 +299,19 @@
 
                 // Grab the URL of the website
                 var currentURL = window.location.origin;
-                console.log(userData);
+                console.log("userData", userData);
 
                 // Display the best match in the modal
                 $("#resultsModal").modal("show");
                 //AJAX post the data to the dogs API
                 $.post(currentURL + "/api/dogs", userData, function (data) {
-                    
+                    console.log("data", data);
                     //Grab the result from the AJAX post so that the best matchs name, age & photo display
                     $("#matchName").text(data.name);
                     $("#matchAge").text(data.age);
                     // TODO:
                     // Figure out why my photos are not posting to the results modal
-                    $("#matchImg").attr('src', data.photo);
+                    $("#matchImg").attr('src', data.photo).addClass('img-responsive');
                     
                 });
             }
@@ -318,6 +320,7 @@
             }
             return false;
         });
+    });
     </script>
 </body>
 

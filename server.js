@@ -9,6 +9,7 @@ var bodyParser = require('body-parser');
 var PORT = process.env.PORT || 8081;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(express.static("app/public"));
 
 // Requires path to htmlRoutes.js
 require('./app/routing/apiRoutes.js')(app);
